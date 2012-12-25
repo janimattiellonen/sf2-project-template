@@ -26,7 +26,8 @@
         "jms/security-extra-bundle": "1.2.*",
         "jms/di-extra-bundle": "1.1.*",
         "kriswallsmith/assetic": "1.1.*@dev",
-        "besimple/i18n-routing-bundle": "dev-master"
+        "besimple/i18n-routing-bundle": "dev-master",
+        "friendsofsymfony/user-bundle": "*"
     },
     "scripts": {
         "post-install-cmd": [

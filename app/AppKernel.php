@@ -22,6 +22,7 @@ class AppKernel extends Kernel
 
             new \JmeSf2\GenericBundle\JmeSf2GenericBundle(),
             new BeSimple\I18nRoutingBundle\BeSimpleI18nRoutingBundle(),
+            new FOS\UserBundle\FOSUserBundle(),
         );
 
         if (in_array($this->getEnvironment(), array('dev', 'test'))) {
