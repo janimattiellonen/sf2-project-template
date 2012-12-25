@@ -1,4 +1,2 @@
-le-foo-server
-=============
-
-Le-foo server
+sf2-project-template
+====================
