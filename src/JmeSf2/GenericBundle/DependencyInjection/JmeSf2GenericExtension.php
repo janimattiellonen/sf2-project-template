@@ -6,7 +6,7 @@ use Symfony\Component\DependencyInjection\Loader\YamlFileLoader;
 use Symfony\Component\HttpKernel\DependencyInjection\Extension;
 use Symfony\Component\Config\FileLocator;
 
-class AcmeDemoExtension extends Extension
+class JmeSf2GenericExtension extends Extension
 {
     /**
      * @param array $configs
@@ -23,6 +23,6 @@ class AcmeDemoExtension extends Extension
      */
     public function getAlias()
     {
-        return 'jmesf2_generic';
+        return 'jme_sf2_generic';
     }
 }
