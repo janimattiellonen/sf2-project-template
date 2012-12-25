@@ -13,3 +13,6 @@ parameters:
 
     locale:            en
     secret:            ThisTokenIsNotSoSecretChangeIt
+
+    domain:            my-server.localhost
+    node_bin:          /opt/local/bin/node

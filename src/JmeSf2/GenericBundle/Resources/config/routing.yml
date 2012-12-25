@@ -1,0 +1,3 @@
+jme_sf2_generic_frontpage:
+    pattern:  /
+    defaults: { _controller: JmeSf2GenericBundle:Default:index }

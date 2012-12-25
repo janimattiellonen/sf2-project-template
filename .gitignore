@@ -9,3 +9,4 @@ composer.phar
 composer.phar
 app/config/parameters.yml
 .DS_Store
+node_modules
