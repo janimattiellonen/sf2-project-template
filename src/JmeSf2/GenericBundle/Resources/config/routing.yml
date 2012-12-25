@@ -1,3 +1,7 @@
+jme_sf2_generic_default:
+    pattern: /
+    defaults: { _controller: JmeSf2GenericBundle:Default:index }
+
 jme_sf2_generic_frontpage:
-    pattern:  /
+    locales: {en: "/en", fi: "/fi"}
     defaults: { _controller: JmeSf2GenericBundle:Default:index }

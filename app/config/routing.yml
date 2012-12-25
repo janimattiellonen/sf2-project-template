@@ -1,2 +1,3 @@
 _jmesf2_generic_bundle:
     resource: "@JmeSf2GenericBundle/Resources/config/routing.yml"
+    type: be_simple_i18n
