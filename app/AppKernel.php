@@ -23,6 +23,13 @@ class AppKernel extends Kernel
             new \JmeSf2\GenericBundle\JmeSf2GenericBundle(),
         );
 
+        if (in_array($this->getEnvironment(), array('dev', 'test'))) {
+            $bundles[] = new Acme\DemoBundle\AcmeDemoBundle();
+            $bundles[] = new Symfony\Bundle\WebProfilerBundle\WebProfilerBundle();
+            $bundles[] = new Sensio\Bundle\DistributionBundle\SensioDistributionBundle();
+            $bundles[] = new Sensio\Bundle\GeneratorBundle\SensioGeneratorBundle();
+        }
+
         return $bundles;
     }
 
