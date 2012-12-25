@@ -21,6 +21,7 @@ class AppKernel extends Kernel
             new JMS\SecurityExtraBundle\JMSSecurityExtraBundle(),
 
             new \JmeSf2\GenericBundle\JmeSf2GenericBundle(),
+            new Doctrine\Bundle\MongoDBBundle\DoctrineMongoDBBundle(),
         );
 
         if (in_array($this->getEnvironment(), array('dev', 'test'))) {
