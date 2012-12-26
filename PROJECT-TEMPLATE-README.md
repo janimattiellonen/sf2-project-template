@@ -30,7 +30,7 @@ Composer is used for dealing (obtaining and installing) with vendor dependencies
 
 Obtain composer from http://getcomposer.org/.
 
-Installation is a simple:
+Installation is simple:
 
 curl -s https://getcomposer.org/installer | php
 
