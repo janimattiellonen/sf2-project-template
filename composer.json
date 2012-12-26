@@ -16,6 +16,11 @@
         "symfony/symfony": "2.1.6",
         "doctrine/orm": ">=2.2.3,<2.4-dev",
         "doctrine/doctrine-bundle": "1.0.*",
+        "gedmo/doctrine-extensions": "2.3.x-dev",
+        "beberlei/DoctrineExtensions": "dev-master",
+        "stof/doctrine-extensions-bundle": "dev-master",
+        "doctrine/doctrine-migrations-bundle": "dev-master",
+        "doctrine/mongodb-odm-bundle": "dev-master",
         "twig/extensions": "dev-master",
         "symfony/assetic-bundle": "2.1.*",
         "symfony/swiftmailer-bundle": "2.1.*",
@@ -27,7 +32,8 @@
         "jms/di-extra-bundle": "1.1.*",
         "kriswallsmith/assetic": "1.1.*@dev",
         "besimple/i18n-routing-bundle": "dev-master",
-        "friendsofsymfony/user-bundle": "*"
+        "friendsofsymfony/user-bundle": "*",
+        "willdurand/expose-translation-bundle": "dev-master"
     },
     "scripts": {
         "post-install-cmd": [

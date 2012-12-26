@@ -60,6 +60,16 @@ doctrine:
         auto_generate_proxy_classes: "%kernel.debug%"
         auto_mapping: true
 
+doctrine_mongodb:
+    connections:
+        default:
+            server: mongodb://127.0.0.1:27017
+            options: {}
+    default_database: le-foo_db
+    document_managers:
+        default:
+            auto_mapping: true
+
 # Swiftmailer Configuration
 swiftmailer:
     transport: "%mailer_transport%"
@@ -69,3 +79,8 @@ swiftmailer:
     spool:     { type: memory }
 
 be_simple_i18n_routing: ~
+
+fos_user:
+    db_driver: mongodb # other valid values are 'mongodb', 'couchdb' and 'propel'
+    firewall_name: main
+    user_class: JmeSf2\GenericUserBundle\Document\User
