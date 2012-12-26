@@ -3,7 +3,8 @@ sf2-project-template
 
 The aim of this project is to provide basic features that each sf2 project most likely will use:
 
-- login
+- login ( & logout)
+- registration
 - translation
 - locale specific urls
 
