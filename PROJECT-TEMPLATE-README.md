@@ -92,4 +92,10 @@ During the development, you may need to recreate assets:
 
 php app/console assetic:dump --watch
 
-Remember to dump the assets every time you deploy! 
+Remember to dump the assets every time you deploy!
+
+## Testing
+
+Run unit tests:
+
+phpunit -c app
