@@ -7,8 +7,18 @@ The aim of this project is to provide basic features that each sf2 project most 
 - registration
 - translation
 - locale specific urls
+- support for CoffeeScript and LESS (can be used along/instead of JavaScript and CSS)
+- asset management
 
 ## Installation
+
+### Install CoffeeScript
+
+npm install coffee-script
+
+### Install LESS
+
+npm install less
 
 ### Create configuration file
 
@@ -75,3 +85,11 @@ Remember to activate the newly created user:
 php app/console fos:user:activate
 
 After that you can login using yoursite.com/login.
+
+## Asset management
+
+During the development, you may need to recreate assets:
+
+php app/console assetic:dump --watch
+
+Remember to dump the assets every time you deploy! 
