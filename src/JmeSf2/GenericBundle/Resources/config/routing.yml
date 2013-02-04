@@ -1,0 +1,14 @@
+jme_sf2_generic_default:
+    pattern: /
+    defaults: { _controller: JmeSf2GenericBundle:Default:index }
+
+jme_sf2_generic_frontpage:
+    locales: {en: "/en", fi: "/fi"}
+    defaults: { _controller: JmeSf2GenericBundle:Default:index }
+
+login_check:
+    pattern: /login_check
+
+login_success:
+    pattern: /login_success
+    defaults:  { _controller: JmeSf2GenericBundle:Default:index, _locale: fi }
