@@ -1,6 +1,9 @@
 <?php
+namespace JmeSf2\Component\Controller;
 
-class Controller
+use Symfony\Bundle\FrameworkBundle\Controller\Controller as BaseController;
+
+class Controller extends BaseController
 {
 
 }
